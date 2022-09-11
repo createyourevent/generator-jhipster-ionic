@@ -1,4 +1,3 @@
-// import expect from 'expect';
 import { expect } from 'chai';
 
 import { helpers, lookups } from '#test-utils';

@@ -1,4 +1,4 @@
-import expect from 'expect';
+import { expect } from 'chai';
 
 import { helpers, lookups } from '#test-utils';
 
@@ -21,7 +21,7 @@ describe('SubGenerator app of ionic JHipster blueprint', () => {
     });
 
     it('should succeed', () => {
-      expect(result.getStateSnapshot()).toMatchSnapshot();
+      expect(result.getStateSnapshot()).to.matchSnapshot();
     });
   });
 
@@ -44,7 +44,7 @@ describe('SubGenerator app of ionic JHipster blueprint', () => {
     });
 
     it('should succeed', () => {
-      expect(result.getStateSnapshot()).toMatchSnapshot();
+      expect(result.getStateSnapshot()).to.matchSnapshot();
     });
 
     it('generates a package.json file at custom folder', () => {

@@ -1,4 +1,4 @@
-import expect from 'expect';
+import { expect } from 'chai';
 
 import { helpers, lookups } from '#test-utils';
 
@@ -26,7 +26,7 @@ describe('SubGenerator ionic of ionic JHipster blueprint', () => {
     });
 
     it('should succeed', () => {
-      expect(result.getStateSnapshot()).toMatchSnapshot();
+      expect(result.getStateSnapshot()).to.matchSnapshot();
     });
 
     it('should generate app/services/auth/auth-jwt.service.ts', () => {
@@ -50,7 +50,7 @@ describe('SubGenerator ionic of ionic JHipster blueprint', () => {
     });
 
     it('should succeed', () => {
-      expect(result.getStateSnapshot()).toMatchSnapshot();
+      expect(result.getStateSnapshot()).to.matchSnapshot();
     });
 
     it('should not generate jwt files', () => {

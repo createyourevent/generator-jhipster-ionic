@@ -1,0 +1,6 @@
+exports["SubGenerator project-name of ionic JHipster blueprint/run/should succeed(0)"] = {
+  ".yo-rc.json": {
+    "stateCleared": "modified"
+  }
+};
+

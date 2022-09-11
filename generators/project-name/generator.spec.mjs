@@ -1,4 +1,4 @@
-import expect from 'expect';
+import { expect } from 'chai';
 
 import { helpers, lookups } from '#test-utils';
 
@@ -18,7 +18,7 @@ describe('SubGenerator project-name of ionic JHipster blueprint', () => {
     });
 
     it('should succeed', () => {
-      expect(result.getStateSnapshot()).toMatchSnapshot();
+      expect(result.getStateSnapshot()).to.matchSnapshot();
     });
   });
 });

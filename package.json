@@ -40,14 +40,13 @@
     "update-snapshot": "npm run mocha  -- --no-parallel --updateSnapshot"
   },
   "dependencies": {
-    "chai": "^4.3.6",
     "chalk": "5.0.1",
-    "enzyme": "^3.11.0",
-    "generator-jhipster": "createyourevent/generator-jhipster",
-    "mocha-snapshots": "^4.2.0"
+    "generator-jhipster": "createyourevent/generator-jhipster"
   },
   "devDependencies": {
+    "chai": "^4.3.6",
     "ejs-lint": "1.2.2",
+    "enzyme": "^3.11.0",
     "eslint": "8.23.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.5.0",
@@ -58,7 +57,8 @@
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "mocha": "10.0.0",
-    "mocha-expect-snapshot": "3.2.0",
+    "mocha-expect-snapshot": "^6.1.0",
+    "mocha-snapshots": "^4.2.0",
     "prettier": "2.7.1",
     "prettier-plugin-java": "1.6.2",
     "prettier-plugin-packagejson": "2.2.18",
