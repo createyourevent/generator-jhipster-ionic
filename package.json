@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "chalk": "5.0.1",
-    "generator-jhipster": "createyourevent/heartfull-mind-generator"
+    "generator-jhipster": "createyourevent/generator-jhipster"
   },
   "devDependencies": {
     "ejs-lint": "1.2.2",
