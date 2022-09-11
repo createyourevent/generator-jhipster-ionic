@@ -101,7 +101,7 @@ Enable clear text traffic and add `dev.localhost.ionic` as a scheme in `android/
     <data android:scheme="dev.localhost.ionic" />
     <!--data android:scheme="com.okta.dev-133337" /-->
   </intent-filter>
-  
+
   <intent-filter>
     <action android:name="android.intent.action.MAIN" />
     <category android:name="android.intent.category.LAUNCHER" />
@@ -174,7 +174,7 @@ This app comes with internationalization (i18n) out of the box with [ngx-transla
 
 ### Adding Languages
 
-To add new languages, add new files to the `src/assets/i18n` directory, following the pattern of LANGCODE.json where LANGCODE is the language/locale  code (ex: en/gb/de/es/etc.).
+To add new languages, add new files to the `src/assets/i18n` directory, following the pattern of LANGCODE.json where LANGCODE is the language/locale code (ex: en/gb/de/es/etc.).
 
 ## Testing
 

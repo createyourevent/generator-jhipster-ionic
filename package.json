@@ -31,17 +31,20 @@
     "ejslint": "ejslint generators/**/*.ejs && ejslint generators/**/*.ejs -d '&'",
     "lint": "eslint .",
     "lint-fix": "npm run ejslint && npm run lint -- --fix",
-    "mocha": "mocha generators --no-insight --forbid-only",
+    "mocha": "mocha generators --no-insight --forbid-only --require mocha-snapshots --update",
     "prettier-format": "prettier --write \"{,**/}*.{js,cjs,mjs,json,md,yml}\"",
     "prettier:check": "prettier --check \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java}\"",
     "prettier:format": "prettier --write \"{,src/**/}*.{md,json,yml,html,js,ts,tsx,css,scss,vue,java}\"",
     "pretest": "npm run lint",
     "test": "npm run mocha --",
-    "update-snapshot": "npm run mocha -- --no-parallel --updateSnapshot"
+    "update-snapshot": "npm run mocha  -- --no-parallel --updateSnapshot"
   },
   "dependencies": {
+    "chai": "^4.3.6",
     "chalk": "5.0.1",
-    "generator-jhipster": "createyourevent/generator-jhipster"
+    "enzyme": "^3.11.0",
+    "generator-jhipster": "createyourevent/generator-jhipster",
+    "mocha-snapshots": "^4.2.0"
   },
   "devDependencies": {
     "ejs-lint": "1.2.2",

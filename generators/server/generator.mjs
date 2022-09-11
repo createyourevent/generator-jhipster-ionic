@@ -19,15 +19,9 @@ export default class extends ServerGenerator {
     return {
       async increaseOauth2Sleep({ application: { authenticationTypeOauth2, serviceDiscoveryEureka } }) {
         if (authenticationTypeOauth2) {
-          this.editFile(
-            'src/main/docker/app.yml',
-            content => content.replace('JHIPSTER_SLEEP=30', 'JHIPSTER_SLEEP=60')
-          );
+          this.editFile('src/main/docker/app.yml', content => content.replace('JHIPSTER_SLEEP=30', 'JHIPSTER_SLEEP=60'));
           if (serviceDiscoveryEureka) {
-            this.editFile(
-              'src/main/docker/app.yml',
-              content => content.replace('JHIPSTER_SLEEP=20', 'JHIPSTER_SLEEP=40')
-            );
+            this.editFile('src/main/docker/app.yml', content => content.replace('JHIPSTER_SLEEP=20', 'JHIPSTER_SLEEP=40'));
           }
         }
       },
