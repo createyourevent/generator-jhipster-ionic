@@ -41,7 +41,10 @@
   },
   "dependencies": {
     "chalk": "5.0.1",
-    "generator-jhipster": "createyourevent/generator-jhipster"
+    "enzyme-adapter-react-16": "^1.15.6",
+    "generator-jhipster": "createyourevent/generator-jhipster",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "chai": "^4.3.6",
@@ -56,9 +59,9 @@
     "expect": "^29.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "mocha": "10.0.0",
+    "mocha": "^10.0.0",
     "mocha-expect-snapshot": "^6.1.0",
-    "mocha-snapshots": "createyourevent/mocha-snapshots",
+    "mocha-snapshots": "4.5.1",
     "prettier": "2.7.1",
     "prettier-plugin-java": "1.6.2",
     "prettier-plugin-packagejson": "2.2.18",
@@ -66,6 +69,9 @@
   },
   "engines": {
     "node": ">=16.13.0"
+  },
+  "publishConfig": {
+    "registry": "https://verdaccio.heartfull-mind.space/"
   },
   "cacheDirectories": [
     "node_modules"
