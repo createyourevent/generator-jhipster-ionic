@@ -6,7 +6,7 @@ application {
     packageName org.jhipster.demo.blog
     prodDatabaseType postgresql
     buildTool maven
-    clientFramework angular
+    clientFramework angularX
     testFrameworks [cypress]
   }
   entities *
