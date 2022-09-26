@@ -29,7 +29,6 @@
   ],
   "scripts": {
     "ejslint": "ejslint generators/**/*.ejs && ejslint generators/**/*.ejs -d '&'",
-    "lint": "eslint .",
     "lint-fix": "npm run ejslint && npm run lint -- --fix",
     "mocha": "mocha generators --no-insight --forbid-only --require mocha-snapshots --update",
     "prettier-format": "prettier --write \"{,**/}*.{js,cjs,mjs,json,md,yml}\"",

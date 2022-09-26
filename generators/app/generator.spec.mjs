@@ -41,7 +41,7 @@ describe('SubGenerator app of ionic JHipster blueprint', () => {
         })
         .withLookups(lookups)
         .run();
-      });
+    });
 
     it('should succeed', () => {
       expect(result.getStateSnapshot()).to.matchSnapshot();
