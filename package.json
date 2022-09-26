@@ -42,7 +42,7 @@
   "dependencies": {
     "chalk": "5.0.1",
     "enzyme-adapter-react-16": "^1.15.6",
-    "generator-jhipster": "createyourevent/generator-jhipster",
+    "generator-jhipster": "^7.9.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
   },

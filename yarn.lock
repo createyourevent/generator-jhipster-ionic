@@ -1280,10 +1280,10 @@ available-typed-arrays@^1.0.5:
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
   integrity sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==
 
-aws-sdk@2.1209.0:
-  version "2.1209.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1209.0.tgz#fd7b9efd4047ab6b45bba2c890529d4c296a4b85"
-  integrity sha512-m4Dd0HtyKeKBjwzP9rhe+NcmsRKR0wW+QXfpepu6vgXYhmcJuOB9TLUoeB7jiNDPimmwU+KxtL6eonRfeFhANw==
+aws-sdk@2.1204.0:
+  version "2.1204.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1204.0.tgz#6e0c5d0b4b50ff122b66772bb0ab5453009e6106"
+  integrity sha512-H3dRQBdgzAfZ/e/dfiW44fhQrgAuCfIzWhI5y5J9122caI4uZY6TEUd003UXP4nXq2eMfuPWg0bA/mPwbj8RkA==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -2944,12 +2944,13 @@ gauge@^4.0.3:
     strip-ansi "^6.0.1"
     wide-align "^1.1.5"
 
-generator-jhipster@createyourevent/generator-jhipster:
+generator-jhipster@^7.9.3:
   version "7.9.3"
-  resolved "https://codeload.github.com/createyourevent/generator-jhipster/tar.gz/8da663a66d676c586cbb2c4562ab26ceec2a96b9"
+  resolved "https://registry.yarnpkg.com/generator-jhipster/-/generator-jhipster-7.9.3.tgz#b8b90ad62a9078d7572524061e1e6b76128d7990"
+  integrity sha512-iuhXUA0jHygv9wg3cCK+1xdNchi8x3z56TtTPqIeiDP0VNHL2ddesicL4QwNnHzMafk+J1po7hDEGQqURDUpvA==
   dependencies:
     "@faker-js/faker" "5.5.3"
-    aws-sdk "2.1209.0"
+    aws-sdk "2.1204.0"
     axios "0.27.2"
     chalk "4.1.2"
     chevrotain "10.3.0"
@@ -2979,7 +2980,7 @@ generator-jhipster@createyourevent/generator-jhipster:
     randexp "0.5.3"
     semver "7.3.7"
     shelljs "0.8.5"
-    simple-git "3.14.0"
+    simple-git "3.13.0"
     then-request "6.0.2"
     uuid "8.3.2"
     winston "3.8.1"
@@ -5774,10 +5775,10 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.14.0.tgz#6b98b445635ea778e8af9baa299dca71ede896ec"
-  integrity sha512-Paad1BkrI7vWhImLybDRYOHnh3WPsHSKXJpmKM+iGjjKNV91XaOdd+yIdZ/gqdzncHDEKYff4k+74oNo1R+U8Q==
+simple-git@3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.13.0.tgz#36589e201c28cecaca6f3a898e7257c6610e8588"
+  integrity sha512-VYrs3joeHvWGcN3K135RpGpPjm4AHYeOrclwew6LlfHgq6ozQYIW2yMnmjf4PCgVOuSYCbXkdUjyiFawuJz8MA==
   dependencies:
     "@kwsites/file-exists" "^1.1.1"
     "@kwsites/promise-deferred" "^1.1.1"
