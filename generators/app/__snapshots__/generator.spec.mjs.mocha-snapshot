@@ -38,13 +38,13 @@ exports["SubGenerator app of ionic JHipster blueprint/run/should succeed(0)"] = 
   ".husky/pre-commit": {
     "stateCleared": "modified"
   },
-  "../ionic4j/.prettierrc.yml": {
-    "stateCleared": "modified"
-  },
   "../ionic4j/.prettierignore": {
     "stateCleared": "modified"
   },
   "../ionic4j/.gitignore": {
+    "stateCleared": "modified"
+  },
+  "../ionic4j/.prettierrc.yml": {
     "stateCleared": "modified"
   },
   "../ionic4j/.gitattributes": {
@@ -533,10 +533,10 @@ exports["SubGenerator app of ionic JHipster blueprint/with custom ionic path/sho
   ".gitignore": {
     "stateCleared": "modified"
   },
-  ".gitattributes": {
+  ".editorconfig": {
     "stateCleared": "modified"
   },
-  ".editorconfig": {
+  ".gitattributes": {
     "stateCleared": "modified"
   },
   "sonar-project.properties": {
@@ -575,10 +575,10 @@ exports["SubGenerator app of ionic JHipster blueprint/with custom ionic path/sho
   "../ionic-app/capacitor.config.ts": {
     "stateCleared": "modified"
   },
-  "../ionic-app/ionic.config.json": {
+  "../ionic-app/src/app/interceptors/auth.interceptor.ts": {
     "stateCleared": "modified"
   },
-  "../ionic-app/src/app/interceptors/auth.interceptor.ts": {
+  "../ionic-app/ionic.config.json": {
     "stateCleared": "modified"
   },
   "../ionic-app/src/app/pages/home/home.page.scss": {

@@ -428,10 +428,10 @@ exports["SubGenerator server of ionic JHipster blueprint/run/should succeed(0)"]
   "src/test/java/com/mycompany/myapp/repository/timezone/DateTimeWrapperRepository.java": {
     "stateCleared": "modified"
   },
-  "src/test/java/com/mycompany/myapp/config/SqlTestContainer.java": {
+  "src/test/java/com/mycompany/myapp/config/EmbeddedSQL.java": {
     "stateCleared": "modified"
   },
-  "src/test/java/com/mycompany/myapp/config/EmbeddedSQL.java": {
+  "src/test/java/com/mycompany/myapp/config/SqlTestContainer.java": {
     "stateCleared": "modified"
   },
   "src/test/resources/config/application-testdev.yml": {
