@@ -5,10 +5,10 @@ exports["SubGenerator ionic of ionic JHipster blueprint/with jwt authentication/
   ".yo-rc.json": {
     "stateCleared": "modified"
   },
-  ".prettierrc.yml": {
+  ".prettierignore": {
     "stateCleared": "modified"
   },
-  ".prettierignore": {
+  ".prettierrc.yml": {
     "stateCleared": "modified"
   },
   ".gitignore": {
